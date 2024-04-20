@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+		<title>Remolock 远程锁定</title>
+		<style type="text/css">
+			<!--
+				body,div {
+					margin: 0;
+					padding: 0;
+				}
+				body {
+					background-color: #F0F0F0;
+				}
+				.clrBg {
+					position: relative;
+					width: 100%;
+					background: #404040
+				}
+				.txtNormal {
+					font-family: "微软雅黑 Light","微软雅黑";
+					font-size: x-large;
+					color: #C0C0C0;
+					height: 100%;
+				}
+				.txtLite {
+					font-family: "微软雅黑 Light","微软雅黑";
+					font-size: medium;
+					color: black;
+					height: 100%;
+				}
+				.txtBtn {
+					font-family: "微软雅黑 Light","微软雅黑";
+					font-size: large;
+					color: white;
+					height: 100%;
+				}
+				.btnLock {
+					display: inline-block;
+					position: relative;
+					margin: 10px;
+					padding: 15px 30px;
+					text-align: center;
+					text-decoration: none;
+					background: #404040;
+					
+					border-radius: 40px;
+					-webkit-border-radius: 40px;
+					-moz-border-radius: 40px;
+					
+					box-shadow: 0 0 0 2px #F0F0F0;
+					-webkit-box-shadow: 0 0 0 2px #F0F0F0;
+					-moz-box-shadow: 0 0 0 2px #F0F0F0;
+					
+					transition: all 0.25s;
+					-webkit-transition: all 0.25s;
+					-moz-transition: all 0.25s;
+					-o-transition: all 0.25s;
+					-ms-transition: all 0.25s;
+				}
+				.btnLock:hover {
+					background: #666666;
+				}
+				.btnLock:active {
+					background: white;
+					color: black;
+				}
+			-->
+		</style>
+	</head>
+	
+	<body>
+		<div class="clrBg" id="divBgColor">
+			<div style="height:150px" class="txtNormal"></div>
+			<div class="txtNormal" id="divText" align="center">
+				Remolock远程锁定<br /><br />
+				“%INFO%”
+			</div>
+			<div style="height:50px;"></div>
+			<div style="position:relative;width:100%;top:40px;" align="center"><a href="%BTNLINK%" class="btnLock txtBtn">%BTNTXT%</a></div>
+			<div style="height:70px;background:#F0F0F0;"></div>
+		</div>
+		<div class="txtLite" align="center">%STATE%</div>
+	</body>
+</html>
